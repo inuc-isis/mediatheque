@@ -1,16 +1,27 @@
-# Compiled class file
+# Compilation Java et Maven
 *.class
+target/
 
-# Log file
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse (et métadonnées de l'extension Java de VS Code)
+.project
+.classpath
+.settings/
+bin/
+
+# Journaux et plantages de la JVM
 *.log
+hs_err_pid*
+replay_pid*
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Archives
 *.jar
 *.war
 *.nar
@@ -19,6 +30,10 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# BlueJ, J2ME
+*.ctxt
+.mtj.tmp/
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
